@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  background-color: rgb(228 240 245);
+  border: 2px solid rgb(140 140 140);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(200 220 230);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+}
+
+nav,
+ul {
+  padding: 1em;
+}

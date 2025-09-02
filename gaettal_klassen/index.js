@@ -1,10 +1,14 @@
 "use strict";
+import { getRandomNum } from "../utils.js";
 
 const btn = document.querySelector("button");
 const input = document.querySelector("input");
 const h2 = document.querySelector("h2");
 
-const computerNum = Math.floor(Math.random() * 100) + 1;
+const max = 100;
+
+const computerNum = getRandomNum(100);
+
 console.log("computerNum", computerNum);
 
 btn.addEventListener("click", klik_btn);
